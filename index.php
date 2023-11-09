@@ -3,7 +3,9 @@
   <div class="row">
     <div class="col-sm-8 blog-main">
       <div class="blog-post">
+      <a href="#">
         <h2 class="blog-post-title">Sample blog post</h2>
+      </a>
         <p class="blog-post-meta">
           January 1, 2014 by <a href="#">Mark</a>
         </p>
@@ -81,7 +83,9 @@
       <!-- /.blog-post -->
 
       <div class="blog-post">
+      <a href="#">
         <h2 class="blog-post-title">Another blog post</h2>
+      </a>
         <p class="blog-post-meta">
           December 23, 2013 by <a href="#">Jacob</a>
         </p>
@@ -111,7 +115,9 @@
       <!-- /.blog-post -->
 
       <div class="blog-post">
+      <a href="#">
         <h2 class="blog-post-title">New feature</h2>
+      </a>
         <p class="blog-post-meta">
           December 14, 2013 by <a href="#">Chris</a>
         </p>
