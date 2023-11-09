@@ -4,3 +4,9 @@ create table posts (id int auto_increment, title varchar(255) NOT NULL, body tex
 insert into posts (title, body, author, created_at) values ('Prvi post', 'Neki tekst u prvom postu', 'Paja', '2023-11-9');
 insert into posts (title, body, author, created_at) values ('Drugi post', 'Random tekst u drugom postu', 'Maja', '2023-10-9');
 insert into posts (title, body, author, created_at) values ('Treci post', 'Random sadrzaj u trecem postu', 'Zlaja', '2023-10-05');
+
+create table comments (id int auto_increment, author varchar(100) NOT NULL, text text NOT NULL, post_id int NOT NULL, PRIMARY KEY(id), FOREIGN KEY(post_id) references posts(id));
+insert into comments (author, text, post_id) values ('Vaja', 'Nevezano, prodajem golfa dvojku', 1);
+insert into comments (author, text, post_id) values ('Baja', 'Da je cetvorka pa haj', 1);
+insert into comments (author, text, post_id) values ('Saja', 'Nevezano, prodajem tovljena pilad', 2);
+
