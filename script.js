@@ -20,3 +20,14 @@ function validateCommentForm() {
       return false;
     }
   }
+
+  function validatePostForm() {
+    var title = document.getElementById("title");
+    var author = document.getElementById("author").value;
+    var text = document.getElementById("body").value;
+  
+    if (!author || !text || !title) {
+      alert("Missing fields");
+      return false;
+    }
+  }
