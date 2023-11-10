@@ -33,7 +33,8 @@ function validateCommentForm() {
   }
 
   function confirmDelete() {
-    if (confirm("Do you really want to delete this post?")) {
+    
+    if (confirm("Do you really want to delete this post" + post_id + '?')) {
       window.location.href = "delete-post.php?post_id=" + post_id;
     }
   }

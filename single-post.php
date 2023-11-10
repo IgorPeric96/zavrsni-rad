@@ -54,7 +54,7 @@
     <!-- /.row -->
 </main>
 <script>
-    var post_id = <?= $post['id']; ?>;
+    let post_id = <?= $_GET['post_id']; ?>;
 </script>
 <!-- /.container -->
 <?php include('footer.php') ?>
